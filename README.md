@@ -33,11 +33,12 @@ python manage.py runserver
 1.python manage.py runserver
 
 # For Operation (Open Browser and follow the step)
-1.indices/create/<Name of Indices>/   =>(For create indices)
+
+1.indices/create/Name of Indices/   (For create indices)<br>
 # Get Indices List
   http://localhost:9200/_cat/indices
-2.inges/create/<indices Name>     =>(For Insert Payload for indices)
+2.inges/create/indices Name      (For Insert Payload for indices)<br>
 # Get List of Inserted Payload for with indices
-  http://localhost:9200/<Name of Indices>
+  http://localhost:9200/Name of Indices
  
 
